@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+work/
+runtime/
+settings.json
+*.exe
+*.log
+*.bin
+*.img
+*.iso
+*.mp4
+*.vob
+*.partial
+tools/*
+!tools/download_manifest.json

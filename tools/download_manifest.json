@@ -1,0 +1,26 @@
+[
+  {
+    "tool": "photorec",
+    "url": "https://www.cgsecurity.org/testdisk-7.2.win64.zip",
+    "sha256": "e97e203ce77b6b1a3a37d01beccf069dc6c4632b579ffbb82ae739cdda229f38",
+    "published_sha256_verified": false,
+    "archive_bytes": 27354549,
+    "executables": [
+      "tools\\photorec\\testdisk-7.2\\fidentify_win.exe",
+      "tools\\photorec\\testdisk-7.2\\photorec_win.exe",
+      "tools\\photorec\\testdisk-7.2\\qphotorec_win.exe",
+      "tools\\photorec\\testdisk-7.2\\testdisk_win.exe"
+    ]
+  },
+  {
+    "tool": "untrunc",
+    "url": "https://github.com/anthwlock/untrunc/releases/download/latest/untrunc_x64.zip",
+    "sha256": "bf807597c152376d9c39f358601f7d2320cedce305080ce73d606cbf58050ebd",
+    "published_sha256_verified": true,
+    "archive_bytes": 13107908,
+    "executables": [
+      "tools\\untrunc\\untrunc_x64\\untrunc-gui.exe",
+      "tools\\untrunc\\untrunc_x64\\untrunc.exe"
+    ]
+  }
+]

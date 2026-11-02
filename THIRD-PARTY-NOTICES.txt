@@ -1,0 +1,28 @@
+ZONKRIK Camera Recovery Studio 3.0 — third-party notices
+
+FFmpeg / FFprobe 8.1.2: see FFmpeg-LICENSE.txt and upstream https://ffmpeg.org/
+Bundled binaries preserve their original distribution. Rebuild/source details:
+https://www.gyan.dev/ffmpeg/builds/ and https://ffmpeg.org/download.html
+
+PhotoRec / TestDisk 7.2 — Christophe Grenier / CGSecurity.
+GNU GPL version 2 or later. License files remain in tools/photorec/testdisk-7.2.
+App invokes PhotoRec only; it does not expose TestDisk partition-write actions.
+Project/source: https://www.cgsecurity.org/wiki/TestDisk
+Exact 7.2 source: https://www.cgsecurity.org/testdisk-7.2.tar.bz2
+
+Untrunc — anthwlock and contributors; upstream license files are retained in
+ tools/untrunc/untrunc_x64. Source: https://github.com/anthwlock/untrunc
+Release used: latest asset untrunc_x64.zip, recorded SHA in download_manifest.
+
+DVD-VR physical-format reader research references dvd-vr by Padraig Brady and
+contributors, GPL-2.0-or-later: https://github.com/pixelb/dvd-vr
+The original research source and copyright/license header are preserved in
+work/research/dvd-vr.c. This app's bounded Python parser interprets physical
+program extents and explicitly does not implement all edited program sets.
+
+Windows device/Shell APIs remain Microsoft Windows components; Windows drivers
+are not redistributed by this app. Matching signed vendor drivers must be
+obtained from the actual hardware manufacturer.
+
+All helper download URLs, archive SHA-256 values and whether a publisher digest
+was verified are recorded in tools/download_manifest.json.

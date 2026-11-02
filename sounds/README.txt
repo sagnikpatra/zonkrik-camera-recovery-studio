@@ -1,0 +1,1 @@
+ZONKRIK original synthesized notification tones. Success: ascending three-note chime. Partial/stopped: repeated caution notes. Failure: descending low notes. Generated with Python standard-library sine waves; no third-party audio assets.
